@@ -1,2 +1,2 @@
 # Vulnerabilities
-Document some vulnerabilities
+Records of some vulnerabilities.
