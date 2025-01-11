@@ -4,7 +4,7 @@ totolink X5000r devices through v9.1.0cu.2350_b20230313
 ## description
 In totolink X5000r v9.1.0cu.2350_b20230313, the file /web/cgi-bin/cstecgi.cgi contains a OS command injection vulnerability in `setVpnAccountCfg`. Authenicated Attackers can send malicious packet to execute arbitary commands.
 ## detail
-In function `setVpnAccountCfg` (at 0x414734), binary /web/cgi-bin/cstecgi.cgi. These parameters ( `user`, `pass`, `limit`, `desc`) are passed to the `Uci_set_str` function without any check.
+In function `setVpnAccountCfg` (at 0x414734), binary /web/cgi-bin/cstecgi.cgi. These parameters ( `user`, `pass`, `limit`, `desc`) are passed to the `Uci_Set_Str` function without any check.
 
 ![](setVpnAccountCfg.png)
 
