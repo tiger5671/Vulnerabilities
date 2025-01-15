@@ -1,5 +1,20 @@
 # totolink X5000r
+## CVEIDs
+
+The CVEIDs of these vulnerabilities and the corresponding vulnerable parameters are as follows.
+
+CVE-2024-57011，vulnerable parameter：`minute`
+
+CVE-2024-57012，vulnerable parameter：`week`
+
+CVE-2024-57013，vulnerable parameter：`switch`
+
+CVE-2024-57014，vulnerable parameter：`recHour`
+
+CVE-2024-57015，vulnerable parameter：`hour`
+
 ## Firmware version
+
 totolink X5000r devices through v9.1.0cu.2350_b20230313
 ## description
 In totolink X5000r v9.1.0cu.2350_b20230313, the file /web/cgi-bin/cstecgi.cgi contains a OS command injection vulnerability in `setScheduleCfg`. Authenicated Attackers can send malicious packet to execute arbitary commands.

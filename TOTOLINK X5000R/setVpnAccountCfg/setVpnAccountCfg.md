@@ -1,5 +1,18 @@
 # totolink X5000r
+## CVEIDs
+
+The CVEIDs of these vulnerabilities and the corresponding vulnerable parameters are as follows.
+
+CVE-2024-57016，vulnerable parameter：`user`
+
+CVE-2024-57017，vulnerable parameter：`pass`
+
+CVE-2024-57018，vulnerable parameter：`desc`
+
+CVE-2024-57019，vulnerable parameter：`limit`
+
 ## Firmware version
+
 totolink X5000r devices through v9.1.0cu.2350_b20230313
 ## description
 In totolink X5000r v9.1.0cu.2350_b20230313, the file /web/cgi-bin/cstecgi.cgi contains a OS command injection vulnerability in `setVpnAccountCfg`. Authenicated Attackers can send malicious packet to execute arbitary commands.
